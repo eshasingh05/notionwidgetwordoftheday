@@ -6,6 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-style: italic;
 }
 
 #widget {
@@ -18,6 +19,7 @@ body {
     color: #4e1f16;
     line-height: 1.2;
     margin-bottom: 2px; /* Less space between word and definition */
+
 }
 
 #definitionLine {
