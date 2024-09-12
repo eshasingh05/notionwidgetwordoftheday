@@ -1,6 +1,6 @@
 body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    background-color: #f3f4f6;
+    font-family: "Times New Roman", serif;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,18 +9,17 @@ body {
   }
   
   #widget {
-    padding: 20px;
-    border-radius: 15px;
-    background: #a6be92;
+    padding: 15px;
+    border-radius: 50px;
+    background: #bdd1ad;
     text-align: center;
-    max-width: 300px;
-    margin: 20px;
+    max-width: 350px;
+    margin: 10px;
   }
   
   #wordDisplay {
     font-size: 1.5em;
-    color: #633b1d;
-    font-weight: bold;
+    color: #6c360c;
     line-height: 1.4;
   }
   
