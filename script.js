@@ -50,7 +50,7 @@ const words = [
   
   function displayWord() {
     const { word, partOfSpeech, definition, example} = getWordOfTheDay();
-    document.getElementById('wordDisplay').textContent = `${word} - ${partOfSpeech}, ${definition} \n ${example}`;
+    document.getElementById('wordDisplay').innerHTML = `${word} - ${partOfSpeech}, ${definition} <br> ${example}`;
   }
   
   displayWord();
