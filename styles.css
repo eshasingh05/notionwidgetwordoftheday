@@ -1,17 +1,27 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
   }
   
   #widget {
     padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+    border-radius: 15px;
+    background: #a6be92;
+    box-shadow: 8px 8px 16px #687161, -8px -8px 16px #ffffff;
     text-align: center;
+    max-width: 300px;
+    margin: 20px;
   }
   
   #wordDisplay {
-    font-size: 1.2em;
+    font-size: 1.5em;
+    color: #633b1d;
+    font-weight: bold;
+    line-height: 1.4;
   }
   
-
