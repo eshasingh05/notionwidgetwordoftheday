@@ -6,24 +6,31 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-  }
-  
-  #widget {
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 40px;
-    border-radius: 50px;
-    background: #bdd1ad;
-    text-align: center;
-    max-width: 500px;
-    margin: 10px;
-  }
-  
-  #wordDisplay {
-    font-size: 1.5em;
-    color: #6c360c;
-    line-height: 1.4;
-  }
-  
+}
+
+#widget {
+    text-align: left;
+    max-width: 600px;
+}
+
+#wordDisplay {
+    font-size: 2.5em;
+    color: #000000;
+    line-height: 1.2;
+    margin-bottom: 2px; /* Less space between word and definition */
+}
+
+#definitionLine {
+    font-size: 1.3em;
+    color: #000000;
+    line-height: 1.2;
+    margin-top: 10px;
+    display: flex;
+    gap: 0.3em; /* Small space between part of speech and definition */
+}
+
+#example {
+    font-size: 1.3em;
+    color: #000000;
+    line-height: 0.2;
+}
