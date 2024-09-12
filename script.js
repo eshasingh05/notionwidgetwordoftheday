@@ -49,8 +49,19 @@ const words = [
   }
   
   function displayWord() {
-    const { word, partOfSpeech, definition, example} = getWordOfTheDay();
-    document.getElementById('wordDisplay').innerHTML = `${word} - ${partOfSpeech}, ${definition} <br> ${example}`;
+    const { word, partOfSpeech, definition, example } = getWordOfTheDay();
+    
+    // Update the word
+    document.getElementById('wordDisplay').textContent = word;
+    
+    // Update the part of speech
+    document.getElementById('partOfSpeech').textContent = `(${partOfSpeech}),`;
+    
+    // Update the definition
+    document.getElementById('definition').textContent = definition;
+    
+    // Update the example sentence
+    document.getElementById('example').textContent = example;
   }
   
   displayWord();
