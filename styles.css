@@ -16,7 +16,7 @@ body {
 }
 
 #wordDisplay {
-    font-size: 2.5em;
+    font-size: 150%;
     color: #4e1f16;
     line-height: 1.2;
     margin-bottom: 2px; /* Less space between word and definition */
@@ -24,7 +24,7 @@ body {
 }
 
 #definitionLine {
-    font-size: 1.3em;
+    font-size: 90%;
     color: #4e1f16;
     line-height: 1.2;
     margin-top: 10px;
@@ -33,7 +33,7 @@ body {
 }
 
 #example {
-    font-size: 1.3em;
+    font-size: 90%;
     color: #4e1f16;
     line-height: 0.2;
 }
