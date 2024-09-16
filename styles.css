@@ -5,7 +5,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 55vh;
-    margin: 0;
     transform: skewX(3deg);
     font-style: italic;
 }
