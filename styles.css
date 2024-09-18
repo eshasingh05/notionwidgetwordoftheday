@@ -1,5 +1,4 @@
 html, body {
-    height: 100%;
     margin: 0;
     padding: 0; 
 }
@@ -10,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Full viewport height */
+    height: 90vh; /* Full viewport height */
     transform: skewX(3deg);
     font-style: italic;
     box-sizing: border-box;
@@ -20,7 +19,7 @@ body {
     font-size: 2em;
     margin-left: 3px;
     color: #4e1f16;
-    line-height: 1;
+    line-height: 25px;
     margin-bottom: 0px; /* Less space between word and definition */
 
 }
@@ -28,12 +27,11 @@ body {
 #definitionLine {
     font-size: 1em;
     color: #4e1f16;
-    line-height: 1.2;
     margin-top: 10px;
 }
 
 #example {
     font-size: 1em;
     color: #4e1f16;
-    line-height: 0.2;
+    line-height: 1px;
 }
