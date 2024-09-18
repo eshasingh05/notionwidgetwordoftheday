@@ -1,21 +1,27 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+}
+
 body {
     font-family: "Times New Roman", serif;
     background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 55vh;
+    height: 100vh; /* Full viewport height */
     transform: skewX(3deg);
     font-style: italic;
+    box-sizing: border-box;
 }
 
 #wordDisplay {
     font-size: 2em;
+    margin-left: 3px;
     color: #4e1f16;
     line-height: 1;
-    margin-bottom: 2px; /* Less space between word and definition */
-    margin-left: 9px;
-
+    margin-bottom: 0px; /* Less space between word and definition */
 
 }
 
