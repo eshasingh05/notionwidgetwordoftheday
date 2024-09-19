@@ -18,7 +18,7 @@ const words = [
     { word: "furtive", definition: "(adjective), attempting to avoid notice or attention, typically because of guilt or a belief that discovery would lead to trouble", example: "She cast a furtive glance around the room."},
     { word: "hapless", definition: "(adjective), unfortunate or unlucky", example: "The hapless traveler lost his way in the storm."},
     { word: "inimical", definition: "(adjective), tending to obstruct or harm", example: "Their inimical actions jeopardized the project."},
-    { word: "lugubrious", definition: "(adjective), looking or sounding sad and dismal", example: "The lugubrious tone of the music matched the mood of the day."},
+    { word: "lugubrious", definition: "(adjective), looking or sounding sad and dismal", example: "The lugubrious tone of the music matched the cloudy weather."},
     { word: "miasma", definition: "(noun), a highly unpleasant or unhealthy smell or vapor", example: "The miasma from the swamp was unbearable."},
     { word: "pallid", definition: "(adjective), lacking color or liveliness", example: "Her pallid complexion was a sign of her illness."},
     { word: "ravenous", definition: "(adjective), extremely hungry", example: "After the hike, they were ravenous and ate everything in sight."},
