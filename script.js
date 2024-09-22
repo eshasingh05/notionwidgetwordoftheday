@@ -21,7 +21,7 @@ const words = [
     { word: "lugubrious", definition: "(adjective), looking or sounding sad and dismal", example: "The music's lugubrious tone matched the cloudy weather."},
     { word: "miasma", definition: "(noun), a highly unpleasant or unhealthy smell or vapor", example: "The miasma from the swamp was unbearable."},
     { word: "pallid", definition: "(adjective), lacking color or liveliness", example: "Her pallid complexion was a sign of her illness."},
-    { word: "ravenous", definition: "(adjective), extremely hungry", example: "After the hike, they were ravenous and ate everything in sight."},
+    { word: "ravenous", definition: "(adjective), extremely hungry", example: "After hiking, they were ravenous and ate everything."},
     { word: "soporific", definition: "(adjective), tending to induce drowsiness or sleep", example: "The lecture was so soporific that many students fell asleep."},
     { word: "subterfuge", definition: "(noun), deceit used in order to achieve one's goal", example: "He used subterfuge to gain access to the restricted area."},
     { word: "tremulous", definition: "(adjective), shaking or quivering slightly", example: "Her tremulous voice betrayed her nervousness."},
