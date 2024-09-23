@@ -22,14 +22,14 @@ const words = [
     { word: "miasma", definition: "(noun), a highly unpleasant or unhealthy smell or vapor", example: "The miasma from the swamp was unbearable."},
     { word: "pallid", definition: "(adjective), lacking color or liveliness", example: "Her pallid complexion was a sign of her illness."},
     { word: "ravenous", definition: "(adjective), extremely hungry", example: "After hiking, they were ravenous and ate everything."},
-    { word: "soporific", definition: "(adjective), tending to induce drowsiness or sleep", example: "The lecture was so soporific that many students fell asleep."},
-    { word: "subterfuge", definition: "(noun), deceit used in order to achieve one's goal", example: "He used subterfuge to gain access to the restricted area."},
+    { word: "soporific", definition: "(adjective), tending to induce drowsiness or sleep", example: "The soporific lecture made many students fall asleep."},
+    { word: "subterfuge", definition: "(noun), deceit used in order to achieve one's goal", example: "He used subterfuge to gain access to restricted area."},
     { word: "tremulous", definition: "(adjective), shaking or quivering slightly", example: "Her tremulous voice betrayed her nervousness."},
     { word: "ubiquitous", definition: "(adjective), present, appearing, or found everywhere", example: "Smartphones have become ubiquitous in modern society."},
     { word: "vehement", definition: "(adjective),showing strong feeling; forceful, passionate, or intense", example: "He was vehement in his defense of the policy."},
     { word: "wraith", definition: "(noun),a ghost or ghostlike image of someone, especially one seen shortly before or after their death", example: "The wraith appeared in the old mansion late at night."},
-    { word: "pragmatic", definition: "(adjective),dealing with things sensibly and realistically", example: "Her pragmatic approach helped resolve many issues efficiently."},
-    { word: "replete", definition: "(adjective),filled or well-supplied with something", example: "The banquet hall was replete with luxurious decorations."},
+    { word: "pragmatic", definition: "(adjective),dealing with things sensibly and realistically", example: "Her pragmatic approach helped resolve many issues."},
+    { word: "replete", definition: "(adjective),filled or well-supplied with something", example: "The banquet hall was replete with splendid decorations."},
     // Add as many words as there are days in the month
   ];
   
