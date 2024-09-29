@@ -26,10 +26,10 @@ const words = [
     { word: "subterfuge", definition: "(noun), deceit used in order to achieve one's goal", example: "He used subterfuge to gain access to restricted area."},
     { word: "tremulous", definition: "(adjective), shaking or quivering slightly", example: "Her tremulous voice betrayed her nervousness."},
     { word: "ubiquitous", definition: "(adjective), present, appearing, or found everywhere", example: "Smartphones have become ubiquitous in modern society."},
-    { word: "vehement", definition: "(adjective),showing strong feeling; forceful, passionate, or intense", example: "He was vehement in his defense of the policy."},
-    { word: "wraith", definition: "(noun),a ghost or ghostlike image of someone, especially one seen shortly before or after their death", example: "The wraith appeared in the old mansion late at night."},
-    { word: "pragmatic", definition: "(adjective),dealing with things sensibly and realistically", example: "Her pragmatic approach helped resolve many issues."},
-    { word: "replete", definition: "(adjective),filled or well-supplied with something", example: "The banquet hall was replete with splendid decorations."},
+    { word: "vehement", definition: "(adjective), showing strong feeling; forceful, passionate, or intense", example: "He was vehement in his defense of the policy."},
+    { word: "wraith", definition: "(noun), a ghost or ghostlike image of someone, especially one seen shortly before or after their death", example: "The wraith appeared in the old mansion late at night."},
+    { word: "pragmatic", definition: "(adjective), dealing with things sensibly and realistically", example: "Her pragmatic approach helped resolve many issues."},
+    { word: "replete", definition: "(adjective), filled or well-supplied with something", example: "The banquet hall was replete with splendid decorations."},
     // Add as many words as there are days in the month
   ];
   
