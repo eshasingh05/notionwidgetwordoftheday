@@ -1,37 +1,42 @@
-html, body {
-    margin: 0;
-    padding: 0; 
+.widget {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: 0px 0px;
+    background-color: #fff;
 }
 
-body {
+ .widget > div {
+    color: #4e1f16;
     font-family: "Times New Roman", serif;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 88vh; /* Full viewport height */
-    transform: skewX(3deg);
     font-style: italic;
-    box-sizing: border-box;
+    transform: skewX(2deg);
+
 }
+
 
 #wordDisplay {
-    font-size: 2em;
-    margin-left: 3px;
-    color: #4e1f16;
-    line-height: 25px;
-    margin-bottom: 0px; /* Less space between word and definition */
-
+    font-size: 2.2em;
 }
 
-#definitionLine {
-    font-size: 1em;
+#definition {
+    font-size: 1.1em;
+    color: #4e1f16;
+    margin-top: 8px;
+}
+
+#example1 {
+    font-size: 1.1em;
     color: #4e1f16;
     margin-top: 10px;
+
 }
 
-#example {
-    font-size: 1em;
+#example2 {
+    font-size: 1.1em;
     color: #4e1f16;
-    line-height: 1px;
+    margin-top: 2px;
+
 }

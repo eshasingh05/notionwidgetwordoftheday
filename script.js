@@ -1,36 +1,36 @@
 // Array of words with their part of speech and definition for the current month
 const words = [
-  { word: "melancholy", definition: "(noun), a deep, enduring sadness", example: "He was shrouded in a profound melancholy." },
-  { word: "ethereal", definition: "(adjective), delicate and light, almost unreal", example: "Her beauty was ethereal, like a fleeting dream." },
-  { word: "woe", definition: "(noun), great sorrow or distress", example: "His face was etched with lines of woe." },
-  { word: "phantasmagoria", definition: "(noun), a shifting series of illusions", example: "The scene appeared as a phantasmagoria of colors." },
-  { word: "rapture", definition: "(noun), intense pleasure or joy", example: "She gazed at the sunset with utter rapture." },
-  { word: "sublime", definition: "(adjective), inspiring awe through grandeur", example: "The view was nothing short of sublime." },
-  { word: "wistful", definition: "(adjective), full of yearning or longing", example: "He gave a wistful glance at the horizon." },
-  { word: "languor", definition: "(noun), a dreamy, relaxed state", example: "The afternoon passed in a gentle languor." },
-  { word: "gloaming", definition: "(noun), twilight or dusk", example: "They walked through the gloaming, hand in hand." },
-  { word: "tempest", definition: "(noun), a violent storm", example: "A raging tempest swept through the coast." },
-  { word: "valiant", definition: "(adjective), courageous and brave", example: "The knight fought with valiant resolve." },
-  { word: "gale", definition: "(noun), a strong wind", example: "The gale howled through the empty streets." },
-  { word: "forlorn", definition: "(adjective), pitifully sad and abandoned", example: "The old house stood empty and forlorn." },
-  { word: "swoon", definition: "(verb), to faint from extreme emotion", example: "She swooned at the sight of him." },
-  { word: "betwixt", definition: "(preposition), between", example: "He found himself betwixt hope and despair." },
-  { word: "ardent", definition: "(adjective), passionate or enthusiastic", example: "Her ardent love was clear in her letters." },
-  { word: "baleful", definition: "(adjective), menacing or harmful", example: "The baleful glare sent chills down her spine." },
-  { word: "reverie", definition: "(noun), a state of being pleasantly lost in one's thoughts", example: "He fell into a reverie by the tranquil stream." },
-  { word: "forlorn", definition: "(adjective), pitifully sad or abandoned", example: "The forlorn figure wandered through the storm." },
-  { word: "enkindle", definition: "(verb), to set on fire or inspire", example: "The speech enkindled their spirits for the cause." },
-  { word: "hearken", definition: "(verb), to listen attentively", example: "They hearkened to the old storyteller's words." },
-  { word: "covet", definition: "(verb), to desire something belonging to another", example: "He could not help but covet the title she held." },
-  { word: "ensconce", definition: "(verb), to settle comfortably or securely", example: "She ensconced herself in the library chair." },
-  { word: "ardor", definition: "(noun), great enthusiasm or passion", example: "She pursued her goals with unyielding ardor." },
-  { word: "threnody", definition: "(noun), a lamentation or song of mourning", example: "The threnody echoed through the empty halls." },
-  { word: "rapacious", definition: "(adjective), aggressively greedy or grasping", example: "The rapacious baron taxed his subjects heavily." },
-  { word: "vindicate", definition: "(verb), to clear someone of blame or suspicion", example: "The evidence vindicated the wrongly accused man." },
-  { word: "dirge", definition: "(noun), a mournful song or poem for the dead", example: "A dirge was sung at the hero's funeral." },
-  { word: "prodigal", definition: "(adjective), lavishly wasteful", example: "The prodigal son returned after squandering his wealth." },
-  { word: "arduous", definition: "(adjective), difficult and tiring", example: "The arduous journey tested their endurance." },
-  { word: "transient", definition: "(adjective), lasting only for a short time", example: "Their transient happiness faded with the dawn." },
+  { word: "melancholy", definition: "(noun), a deep, enduring sadness", example1: "He was shrouded in a", example2: " profound melancholy." },
+  { word: "ethereal", definition: "(adjective), delicate and light, almost unreal", example1: "Her beauty was ethereal,", example2: " like a fleeting dream." },
+  { word: "woe", definition: "(noun), great sorrow or distress", example1: "His face was etched with", example2: " lines of woe." },
+  { word: "phantasmagoria", definition: "(noun), a shifting series of illusions", example1: "The scene appeared as a", example2: " phantasmagoria of colors." },
+  { word: "rapture", definition: "(noun), intense pleasure or joy", example1: "She gazed at the sunset", example2: " with utter rapture." },
+  { word: "sublime", definition: "(adjective), inspiring awe through grandeur", example1: "The view was nothing short", example2: " of sublime." },
+  { word: "wistful", definition: "(adjective), full of yearning or longing", example1: "He gave a wistful glance", example2: " at the horizon." },
+  { word: "languor", definition: "(noun), a dreamy, relaxed state", example1: "The afternoon passed in a", example2: " gentle languor." },
+  { word: "gloaming", definition: "(noun), twilight or dusk", example1: "They walked through the", example2: " gloaming, hand in hand." },
+  { word: "tempest", definition: "(noun), a violent storm", example1: "A raging tempest swept", example2: " through the coast." },
+  { word: "valiant", definition: "(adjective), courageous and brave", example1: "The knight fought with", example2: " valiant resolve." },
+  { word: "gale", definition: "(noun), a strong wind", example1: "The gale howled through", example2: " the empty streets." },
+  { word: "forlorn", definition: "(adjective), pitifully sad and abandoned", example1: "The old house stood empty", example2: " and forlorn." },
+  { word: "swoon", definition: "(verb), to faint from extreme emotion", example1: "She swooned at the sight", example2: " of him." },
+  { word: "betwixt", definition: "(preposition), between", example1: "He found himself betwixt", example2: " hope and despair." },
+  { word: "ardent", definition: "(adjective), passionate or enthusiastic", example1: "Her ardent love was clear", example2: " in her letters." },
+  { word: "baleful", definition: "(adjective), menacing or harmful", example1: "The baleful glare sent", example2: " chills down her spine." },
+  { word: "reverie", definition: "(noun), a state of being pleasantly lost in one's thoughts", example1: "He fell into a reverie", example2: " by the tranquil stream." },
+  { word: "forlorn", definition: "(adjective), pitifully sad or abandoned", example1: "The forlorn figure wandered", example2: " through the storm." },
+  { word: "enkindle", definition: "(verb), to set on fire or inspire", example1: "The speech enkindled their", example2: " spirits for the cause." },
+  { word: "hearken", definition: "(verb), to listen attentively", example1: "They hearkened to the old", example2: " storyteller's words." },
+  { word: "covet", definition: "(verb), to desire something belonging to another", example1: "He could not help but", example2: " covet the title she held." },
+  { word: "ensconce", definition: "(verb), to settle comfortably or securely", example1: "She ensconced herself in", example2: " the library chair." },
+  { word: "ardor", definition: "(noun), great enthusiasm or passion", example1: "She pursued her goals with", example2: " unyielding ardor." },
+  { word: "threnody", definition: "(noun), a lamentation or song of mourning", example1: "The threnody echoed through", example2: " the empty halls." },
+  { word: "rapacious", definition: "(adjective), aggressively greedy or grasping", example1: "The rapacious baron taxed", example2: " his subjects heavily." },
+  { word: "vindicate", definition: "(verb), to clear someone of blame or suspicion", example1: "The evidence vindicated the", example2: " wrongly accused man." },
+  { word: "dirge", definition: "(noun), a mournful song or poem for the dead", example1: "A dirge was sung at the", example2: " hero's funeral." },
+  { word: "prodigal", definition: "(adjective), lavishly wasteful", example1: "The prodigal son returned", example2: " after squandering his wealth." },
+  { word: "arduous", definition: "(adjective), difficult and tiring", example1: "The arduous journey tested", example2: " their endurance." },
+  { word: "transient", definition: "(adjective), lasting only for a short time", example1: "Their transient happiness", example2: " faded with the dawn." }
 ];
   
   function getWordOfTheDay() {
@@ -49,7 +49,7 @@ const words = [
   }
   
   function displayWord() {
-    const { word,definition, example } = getWordOfTheDay();
+    const { word,definition, example1, example2 } = getWordOfTheDay();
     
     // Update the word
     document.getElementById('wordDisplay').textContent = word;
@@ -59,7 +59,10 @@ const words = [
     document.getElementById('definition').textContent = definition;
     
     // Update the example sentence
-    document.getElementById('example').textContent = example;
+    document.getElementById('example1').textContent = example1;
+
+    document.getElementById('example2').textContent = example2;
+
   }
   
   displayWord();
